@@ -1,0 +1,117 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans TC';
+	background-color: #fafafa; 
+}
+
+hr {
+	background-color: #ccc;
+	height: 1px;
+	border: 0px;
+}
+
+.frame {
+	margin: 40px auto;
+	padding: 40px 20px;
+	width: 800px;
+}
+
+.personal-file {
+	display: inline-block;
+	height: 300px;
+	width: 400px;
+	vertical-align : top
+}
+
+.personal-file h1 {
+	margin: 20px 0px;
+	font-size: 28px;
+}
+
+.personal-file a {
+	text-decoration: none;
+	text-decoration-line: none; 
+	color: #3399ff;
+}
+
+.personal-file a:hover {
+	text-decoration-line: underline; 
+}
+
+.personal-file p {
+	letter-spacing: 1px;
+}
+
+.personal-pic {
+	display: inline-block;
+	margin: 25px 80px 25px 0px;
+	vertical-align : top
+}
+
+.personal-pic img {
+	height: 200px;
+	width: auto;
+	border-radius: 3px; 
+}
+
+.title {
+	margin: 10px 0px;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.skill-frame {
+	margin-bottom: 30px;
+}
+
+.title {
+	text-align: left;
+}
+
+.skill-type {
+	display: inline-block;
+	margin: 10px 90px 10px 0px;
+	padding: 0px;
+	height: 100px;
+	width: 300px;
+	text-align: left;
+}
+
+.skill {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.exp {
+	margin-top: 5px;
+}
+
+.exp-outer {
+	margin: 3px 0px;
+	padding: 5px;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+.exp-per {
+	height: 10px;
+	background: #00e64d;
+	border-radius: 10px;
+}
+
+.exp-1 {
+	width: 240px;
+}
+
+.exp-2 {
+	width: 220px;
+}
+
+.exp-3 {
+	width: 140px;
+}
+
+.exp-4 {
+	width: 180px;
+}
