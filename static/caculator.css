@@ -1,0 +1,186 @@
+/* css file*/
+:root {
+	--bgColor: #ffa042;
+	--calColor: #ea7500;
+	--keyAirColor: #bb5e00;
+	--keyNumColor: #ffd306;
+	--keyACsCColor: #ff5809;
+	--fontColor: #fffaf4;
+}
+
+body {
+	background-color: var(--bgColor);
+	font-size: 24px;
+	color: var(--fontColor);
+	font-family: sans-serif;
+}
+
+.textFrame {
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	margin: -250px 0px 0px -200px;
+	padding: 10px; 
+	height: 500px;
+	width: 350px;
+}
+
+.header {
+	margin: 0px;
+	padding: 0px;
+	font-size: 36px;
+}
+
+.direction ul li {
+	margin: 10px 0px;
+}
+
+
+.colorChoiceFrame {
+	position: relative;
+	width: 0px auto;
+	text-align: center;
+}
+
+/*
+.colorChoice {
+	height: 50px;
+	width: 50px;
+	margin: 10px;
+}
+*/
+
+.calculatorFrame {
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin: -250px 0px 0px -200px;
+	padding: 10px;
+	height: 500px;
+	width: 350px;
+	background-color: var(--calColor);
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 1px 1px 5px #844200;
+}
+
+.displayFrame {
+	margin: 10px auto;
+	height: 80px;
+	width: 280px;
+	background-color: var(--calculatorFrame);
+	border: none;
+	border-radius: 5px;
+	font-size: 48px;
+	color: #fff;
+	text-align: right;
+	outline: none;
+}
+
+.key {
+	margin: 6px 2px;
+	height: 65px;
+	width: 65px;
+	border: none;
+	font-size: 36px;
+	color: #fff;
+	text-align: center;
+	line-height: 48px;
+	border-radius: 5px;
+}
+
+.key0 {
+	width: 140px;
+	text-align: right;
+	padding-right: 20px
+}
+
+.keyAri {
+	background-color: var(--keyAirColor);
+}
+
+.keyNum {
+	background-color: var(--keyNumColor);
+}
+
+.keyACsC {
+	background-color: var(--keyACsCColor);
+}
+
+.keyAri:hover {
+	background-color: #fff;
+	color: var(--keyAirColor);
+	animation: keyAriHover .4s 1;
+}
+
+.keyNum:hover {
+	background-color: #fff;
+	color: var(--keyNumColor);
+	animation: keyNumHover .4s 1;
+
+}
+
+.keyACsC:hover {
+	background-color: #844200;
+	/*animation: keyACsCHover .5s 1; */
+}
+
+@keyframes keyAriHover {
+  from {background-color: var(--keyAirColor);}
+  to {background-color: #fff;}
+  from {color: #fff;}
+  to {color: var(--keyAirColor);}
+}
+
+@keyframes keyNumHover {
+  from {background-color: var(--keyNumColor);}
+  to {background-color: #fff;}
+  from {color: #fff;}
+  to {color: var(--keyNumColor);}
+}
+
+/*
+@keyframes keyACsCHover {
+  from {background-color: var(--keyACsCColor);}
+  to {background-color: #bb3d00;}
+}
+*/
+
+ button {
+ 	outline: none;
+ }
+
+/*
+.key:hover {
+	background-color: #ddb104;
+}
+*/
+
+@media screen and (max-width: 1000px){
+	.textFrame {
+		position: relative;
+		left: 50%;
+		margin: 60px 40px 0px -175px;
+		padding: 10px; 
+		height: 320px;
+		width: 350px;
+	}
+
+	.calculatorFrame {
+		position: relative;
+		left: 50%;
+		margin: 0px 0px 100px -175px;
+		padding: 10px;
+		height: 500px;
+		width: 350px;
+		background-color: var(--calColor);
+		text-align: center;
+		border-radius: 20px;
+		box-shadow: 1px 1px 5px #844200;
+	}
+
+}
+
+
+
+

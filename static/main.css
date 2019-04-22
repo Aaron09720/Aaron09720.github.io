@@ -13,7 +13,7 @@ hr {
 
 .frame {
 	margin: 40px auto;
-	padding: 40px 20px;
+	padding: 40px 20px 40px 100px;
 	width: 800px;
 }
 
@@ -46,7 +46,7 @@ hr {
 .personal-pic {
 	display: inline-block;
 	margin: 25px 80px 25px 0px;
-	vertical-align : top
+	vertical-align : top;
 }
 
 .personal-pic img {
@@ -115,3 +115,53 @@ hr {
 .exp-4 {
 	width: 180px;
 }
+
+.portfolio {
+	margin: 60px 0px;
+}
+
+.portfolio-pic {
+	display: inline-block;
+	border: 5px;
+	vertical-align : top;
+}
+
+.portfolio-pic img {
+	height: 300px;
+	width: 320px;
+}
+
+.portfolio-intro {
+	display: inline-block;
+	margin-left: 60px;
+	height: 200px;
+	width: 320px;
+	vertical-align : top;
+}
+
+.portfolio-intro h3 {
+	margin: 5px 0px;
+	font-size: 28px;
+	letter-spacing: 2px;
+}
+
+.portfolio-intro ul li {
+	margin: 5px 0px;
+	font-size: 20px;
+	letter-spacing: 2px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
