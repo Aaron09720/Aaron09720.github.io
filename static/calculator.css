@@ -35,14 +35,13 @@ body {
 	margin: 10px 0px;
 }
 
-
+/*
 .colorChoiceFrame {
 	position: relative;
 	width: 0px auto;
 	text-align: center;
 }
 
-/*
 .colorChoice {
 	height: 50px;
 	width: 50px;
@@ -157,6 +156,7 @@ body {
 */
 
 @media screen and (max-width: 1000px){
+
 	.textFrame {
 		position: relative;
 		left: 50%;
@@ -180,6 +180,17 @@ body {
 	}
 
 }
+
+/*
+@media screen and (max-width: 600px){
+
+	.textFrame {
+		width: 500px;
+		height: 400px;
+	}
+	
+}
+*/
 
 
 
