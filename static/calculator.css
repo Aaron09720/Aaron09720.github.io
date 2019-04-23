@@ -192,14 +192,13 @@ body {
 		padding: 10px;
 		padding-top: 0px;
 		width: 280px;
-		height: 400px;
+		height: 440px;
 	}
 
 	.displayFrame {
 		position: relative;
-		margin: 0px auto;
-		margin-bottom: 5px;
-		height: 80px;
+		margin: 5px auto;
+		height: 56px;
 		width: 240px;
 		font-size: 36px;
 	}
