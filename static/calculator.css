@@ -175,27 +175,27 @@ body {
 @media screen and (max-width: 600px){
 
 	.textFrame {
-		position: relative;
-		margin: 15px auto;
-		margin: 60px 40px 0px -175px;
+		position: absolute;
+		left: 50%;
+		margin: 20px 0px 10px -160px;
 		padding: 15px; 
 		height: 320px;
-		width: 350px;
+		width: 320px;
 	}
 
 	.calculatorFrame {
-		position: relative;
-		margin: 15px auto;
+		position: absolute;
+		margin: 10px 0px 20px -140px;
 		padding: 10px;
-		width: 400px;
-		height: 280px;
+		width: 280px;
+		height: 400px;
 	}
 
 	.displayFrame {
 		position: relative;
 		margin: 10px auto;
 		height: 56px;
-		width: 196px;
+		width: 260px;
 		font-size: 32px;
 	}
 
@@ -203,8 +203,9 @@ body {
 		margin: 3px 1px;
 		height: 45px;
 		width: 45px;
-		font-size: 24px;
+		font-size: 20px;
 		line-height: 45px;
+		text-align: center;
 	}
 
 	.key0 {
