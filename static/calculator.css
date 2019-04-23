@@ -190,20 +190,21 @@ body {
 		left: 50%;
 		margin: 10px 0px 10px -140px;
 		padding: 10px;
+		padding-top: 0px;
 		width: 280px;
 		height: 400px;
 	}
 
 	.displayFrame {
 		position: relative;
-		margin: 8px auto;
+		margin: 5px auto;
 		height: 56px;
 		width: 240px;
-		font-size: 32px;
+		font-size: 36px;
 	}
 
 	.key {
-		margin: 2px 2px;
+		margin: 5px 2px;
 		padding: 0px;
 		height: 60px;
 		width: 60px;
@@ -213,14 +214,11 @@ body {
 	}
 
 	.key0 {
-		width: 124px;
+		width: 126px;
 		padding-right: 10px;
 		text-align: right;
 	}
 
-
-
-	
 }
 
 
