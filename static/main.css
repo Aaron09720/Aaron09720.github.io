@@ -261,9 +261,12 @@ hr {
 @media screen and (max-width: 600px){
 	
 	.frame {
+		position: relative;
+		top: 0%;
+		left: 0%;
+		margin: 20px -200px;
 		width: 400px;
-		margin: 0px auto;
-		padding: 20px 10px;
+		padding: 20px 20px;
 	}
 
 	.skill-type {
