@@ -264,7 +264,8 @@ hr {
 		position: relative;
 		top: 0%;
 		left: 0%;
-		margin: 20px -200px;
+		margin: 20px 0px
+		margin-left: -200px;
 		width: 400px;
 		padding: 20px 20px;
 	}
