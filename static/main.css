@@ -21,7 +21,7 @@ hr {
 	display: inline-block;
 	height: 300px;
 	width: 400px;
-	vertical-align : top
+	vertical-align : top;
 }
 
 .personal-file h1 {
@@ -40,7 +40,7 @@ hr {
 }
 
 .personal-file p {
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 }
 
 .personal-pic {
@@ -52,17 +52,17 @@ hr {
 .personal-pic img {
 	height: 200px;
 	width: auto;
-	border-radius: 3px; 
+	border-radius: 1px; 
 }
 
 .skill-frame {
-	margin: 20px 0px;
+	margin-top: 20px;
 	margin-bottom: 100px; 
 }
 
 .title {
 	text-align: left;
-	margin: 20px 0px;
+	margin: 10px 0px;
 	font-size: 28px
 }
 
@@ -88,13 +88,13 @@ hr {
 	margin: 3px 0px;
 	padding: 5px;
 	border: 3px solid black;
-	border-radius: 10px;
+	border-radius: 15px;
 }
 
 .exp-per {
 	height: 10px;
 	background-color: #00e64d;
-	border-radius: 10px;
+	border-radius: 15px;
 }
 
 .exp-1 {
@@ -257,11 +257,20 @@ hr {
 	letter-spacing: 2px; 
 }
 
-/*
+
 @media screen and (max-width: 600px){
+	
+	.frame {
+		width: 600px;
+	}
+
+	.portfolio-intro {
+		margin-top: 40px;
+	}
 
 }
-*/
+
+
 
 
 
