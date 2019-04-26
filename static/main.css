@@ -261,11 +261,22 @@ hr {
 @media screen and (max-width: 600px){
 	
 	.frame {
-		width: 600px;
+		width: 400px;
+		margin: 0px auto;
+		padding: 20px 10px;
+	}
+
+	.skill-type {
+		margin-right: 0px;
+	}
+
+	.course {
+		margin-right: 0px;
 	}
 
 	.portfolio-intro {
 		margin-top: 40px;
+		margin-left: 0px
 	}
 
 }
