@@ -258,21 +258,19 @@ hr {
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 3px){
 	
 	.frame {
-		position: relative;
-		top: 0%;
-		left: 50%;
-		margin: 20px 0px
-		margin-left: -200px;
-		width: 400px;
-		padding: 20px 20px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 375px;
+		padding: 20px 10px;
 	}
 
 	.personal-file {
-	width: 300px;
-}
+		width: 355px;
+	}
 
 	.skill-type {
 		margin-right: 0px;
@@ -285,6 +283,11 @@ hr {
 	.portfolio-intro {
 		margin-top: 40px;
 		margin-left: 0px
+	}
+
+	.course-udemy {
+		margin: 5px 0px;
+		width: 355px;
 	}
 
 }
