@@ -263,12 +263,16 @@ hr {
 	.frame {
 		position: relative;
 		top: 0%;
-		left: 0%;
+		left: 50%;
 		margin: 20px 0px
 		margin-left: -200px;
 		width: 400px;
 		padding: 20px 20px;
 	}
+
+	.personal-file {
+	width: 300px;
+}
 
 	.skill-type {
 		margin-right: 0px;
