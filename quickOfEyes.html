@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quick of Eyes</title>
+	<link rel="stylesheet" href="static/quickOfEyes.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
+	<link rel="shortcut icon" href="static/favicon.ico" />
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<!-- React Library & React DOM
+	<script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+	<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>-->
+
+	<script type="text/javascript" src="static/quickOfEyes.js"></script>
+
+</head>
+<body>
+
+	
+	<div class="frame main">
+		<h1 class="title">Quick of Eyes</h1>
+		<p>Find the different color block !</p>
+		<div class="mainImg"><img src="static/glasses.png" alt=""></div>
+		<div class="btn startBtn">Start</div>	
+	</div>
+
+	<div class="frame level">
+		<div class="btn easyBtn">Easy</div>
+		<div class="btn normalBtn">Normal</div>
+		<div class="btn hardBtn">Hard</div>
+	</div>
+
+	<div class="ready">
+		<div><span></span></div>
+	</div>
+
+	<div class="frame game">
+		<div id="gameFrame"></div>
+		<!-- <div class="displayLevel">Level : <span></span></div> -->
+		<div class="countDown">Time : <span></span></div>
+	</div>
+
+	<div class="frame score">
+		<h1 class="title">Score : <span></span></h1>
+		<div class="btn backBtn">Again</div>	
+	</div>
+
+
+</body>
+</html>
