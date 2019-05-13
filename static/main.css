@@ -1,3 +1,5 @@
+/* resume */
+
 body {
 	margin: 0;
 	padding: 0;
@@ -98,7 +100,7 @@ hr {
 }
 
 .exp-1 {
-	width: 220px;
+	width: 240px;
 }
 
 .exp-2 {
@@ -190,6 +192,20 @@ hr {
 	background-color:  #ff4d4d;
 }
 
+.recently-book {
+	margin-top: 40px;
+	font-size: 24px;
+}
+
+.recently-book-list {
+	font-size: 20px;
+	list-style: none;
+}
+
+.recently-book-list li {
+	margin: 30px 0px;
+}
+
 .portfolio {
 	margin: 60px 0px;
 }
@@ -263,9 +279,10 @@ hr {
 	.frame {
 		position: absolute;
 		top: 0;
-		left: 0;
-		width: 375px;
-		padding: 20px 10px;
+		left: 50%;
+		margin: -180px;
+		width: 360px;
+		padding: 20px 20px;
 	}
 
 	.personal-file {
