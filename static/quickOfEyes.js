@@ -1,6 +1,6 @@
 //Quick of Eyes
 
-var $block, level, score, countDownTime, diff;
+var block, level, score, countDownTime, diff;
 
 function initialize(){
 	level = 2,
@@ -44,17 +44,18 @@ function createBlock( num){
 	db = b - diff,
 	diffColor = "rgb( " + dr + ", " + dg + ", " + db +")",
 	//隨機指定一個block
-	diffValue = Math.floor(Math.random() * num * num);
+	diffValue = Math.floor(Math.random() * (num * num - 1) + 1);
+	console.log("diffValue: " + diffValue);
 	$('.block').each( function(){
 		if( $(this).attr("value") == diffValue){
-			$block = $(this);
+			block = $(this);
 		}	
 	});
-	$block.css({
+	block.css({
 		"background-color": diffColor
 	});
 
-	$block.on( 'click', function(){
+	block.on( 'click', function(){
 		level++;
 		score = Math.floor( score + countDownTime * level);
 		createBlock(level);
